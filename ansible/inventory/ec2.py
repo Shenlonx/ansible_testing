@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-'''
+"""
 EC2 external inventory script
 =================================
 
@@ -14,9 +14,9 @@ variables needed for Boto have already been set:
 
 This script also assumes there is an ec2.ini file alongside it.  To specify a
 different path to ec2.ini, define the EC2_INI_PATH environment variable:
-
+"""
     export EC2_INI_PATH=/path/to/my_ec2.ini
-
+"""
 If you're using eucalyptus you need to set the above variables and
 you need to define:
 
@@ -92,7 +92,7 @@ variable named:
 
 Security groups are comma-separated in 'ec2_security_group_ids' and
 'ec2_security_group_names'.
-'''
+"""
 
 # (c) 2012, Peter Sankauskas
 #
